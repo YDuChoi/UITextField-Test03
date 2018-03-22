@@ -28,6 +28,10 @@ class ViewController: UIViewController {
         txt01.resignFirstResponder()
         
     }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        txt01.resignFirstResponder()
+    }
+    
     
 }
 
