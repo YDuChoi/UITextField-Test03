@@ -40,7 +40,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
         txt01.resignFirstResponder()
         return true
     }
-    
+    func textFieldShouldClear(_ textField: UITextField) -> Bool {
+        view.backgroundColor = UIColor.green
+        return true
+    }
     
     
 }
